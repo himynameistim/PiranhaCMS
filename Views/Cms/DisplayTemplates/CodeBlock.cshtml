@@ -1,5 +1,5 @@
 @model PiranhaCMS3.Blocks.CodeBlock
 
-    <pre class="brush: @Html.Raw(Model.Language); title: ; notranslate" title="">
+    <pre class="language-@Html.Raw(Model.Language) line-numbers" title=""><code>
     @Html.Raw(Model.Body)
-</pre>
+</code></pre>
